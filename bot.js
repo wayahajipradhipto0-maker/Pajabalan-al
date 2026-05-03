@@ -6,9 +6,9 @@ const { exec } = require('child_process')
 const pino = require('pino')
 
 // ====== CONFIG WAJIB GANTI SEBELUM JALAN ======
-const NOMOR_DANA = '081234567890' // Ganti nomor DANA lu buat.qris
+const NOMOR_DANA = '089524653029' // Ganti nomor DANA lu buat.qris
 const NAMA_STORE = 'STORE PAJABALAM' // Ganti nama toko lu
-global.owner = ['628xxx'] // Ganti nomor WA lu pake 62. Bisa nambah: ['628xxx','628yyy']
+global.owner = ['6289524653029'] // Ganti nomor WA lu pake 62. Bisa nambah: ['628xxx','628yyy']
 global.mode = 'public' // 'public' = semua bisa pake, 'self' = cuma owner
 // ============================================
 
